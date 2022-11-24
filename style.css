@@ -55,3 +55,23 @@ body
     margin-top: 10rem;
     font-size: 1.8rem;
 }
+
+@media screen and (max-width: 845px ) {
+    
+    .countdown-container
+    {
+        gap: 0.3rem;
+    }
+    
+    .num{
+        font-size: 3rem;
+        margin-bottom: 0.6rem;
+    }
+
+    .container span{
+        font-size: 1.2rem;
+        font-weight: bolder;
+        color:cornsilk;
+    }
+
+}
