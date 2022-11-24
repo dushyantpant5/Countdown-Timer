@@ -26,11 +26,10 @@ function countdown()
 
    
     daysE.innerHTML = `${days} :`;
-    hoursE.innerHTML = formatTime(`${hours} :`);
-    minE.innerHTML = formatTime(`${min} :`);
-    secE.innerHTML = formatTime(sec);
+    hoursE.innerHTML = `${formatTime(hours)} :`;
+    minE.innerHTML = `${formatTime(min)} :`;
+    secE.innerHTML = `${formatTime(sec)} `;
 
-    console.log(days,hours,min,sec);
 }   
 
 function formatTime(time)
